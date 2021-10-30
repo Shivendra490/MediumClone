@@ -1,55 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <form action="" method="" name="form" id="f">
-        <table border="1px" align="center" bgcolor="red"> 
-            <th colspan="2"> 
-                Author details
-            </th>
-            <tr>
-                <td>author</td>
-                <td><input type="text" name="author" id="author"></td>
-            </tr>
+  </head>
+  <body>
+    <form name="form" id="f">
+      <table border="1px" align="center" bgcolor="red">
+        <th colspan="2">Author details</th>
+        <tr>
+          <td>author</td>
+          <td><input type="text" name="author" id="author" /></td>
+        </tr>
 
-            <tr>
-                <td>title</td>
-                <td><input type="text" name="title" id="title"></td>
-            </tr>
+        <tr>
+          <td>title</td>
+          <td><input type="text" name="title" id="title" /></td>
+        </tr>
 
-            <tr>
-                <td>content</td>
-                <td><input type="text" name="content" id="content"></td>
-            </tr>
+        <tr>
+          <td>content</td>
+          <td><input type="text" name="content" id="content" /></td>
+        </tr>
 
-            <tr>
-                <td><input type="submit" name="submit" value="submit"></td>
-            </tr>
-
-        </table>
+        <tr>
+          <td>
+            <input type="submit" name="submit" id="submit" value="submit" />
+          </td>
+        </tr>
+      </table>
     </form>
-</body>
+  </body>
 
-<script>
-    
-        
-    var submit=document.querySelector("#submit");
-    submit.addEventListener('click',function(e){
+  <script>
+    var submit = document.getElementById("submit");
+    submit.addEventListener("click", function (e) {
         e.preventDefault();
-    var author=document.getElementsById("author").value;
-    var title=document.getElementBysId("title").value;
-    var content=document.getElementsById("content").value;
-    console.log(e);
-    })
-    
-    
-    
-    
-</script>
-
+      var author = document.getElementById("author").value;
+      var title = document.getElementById("title").value;
+      var content = document.getElementById("content").value;
+      console.log(author,title,content);
+    });
+  </script>
 </html>
