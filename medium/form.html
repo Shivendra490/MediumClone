@@ -41,7 +41,11 @@
       var author = document.getElementById("author").value;
       var title = document.getElementById("title").value;
       var content = document.getElementById("content").value;
-      console.log(author,title,content);
+      const data = fetch("https",{
+          method:'POST',
+          body:"json_body"
+      })
+      console.log(data);
     });
   </script>
 </html>
