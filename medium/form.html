@@ -52,7 +52,7 @@
           }),
         }
       );
-      const getData = fetch("https://dashingtoothpaste.backendless.app/api/data/Blog_Data").then(x=>x.json());
+      const getData = fetch("https://dashingtoothpaste.backendless.app/api/data/Blog_Data").then(x=>x.json()).then(x=>x[0]);
       console.log(data,getData);
     });
   </script>
