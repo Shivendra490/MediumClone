@@ -65,22 +65,25 @@ button{
 }
 
 .container1{
-    display:flex;
     background-color:#aed9e6;
     width:100%;
-    justify-content: space-evenly;
     border-bottom: 1px solid black;
     padding-top: 40px;
 
 }
-
+.title-container{
+    display: flex;
+    width:70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
 .box1{
     background-color:#aed9e6;
-    width:30%;
+    width:40%;
 }
 
 img{
-    width: 339px;
+    width: 100%;
 }
 .card-image{
     width:100%;
@@ -103,7 +106,6 @@ img{
     font-size: large;
     font-weight: 200px;
     text-align: left;
-    line-height: 4px;
     padding:10px;
 
 }
