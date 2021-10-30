@@ -37,14 +37,21 @@
   <script>
     var submit = document.getElementById("submit");
     submit.addEventListener("click", function (e) {
-        e.preventDefault();
+      e.preventDefault();
       var author = document.getElementById("author").value;
       var title = document.getElementById("title").value;
       var content = document.getElementById("content").value;
-      const data = fetch("https",{
-          method:'POST',
-          body:"json_body"
-      })
+      const data = fetch(
+        "https://dashingtoothpaste.backendless.app/api/data/Blog_Data",
+        {
+          method: "POST",
+          body: JSON.stringify({
+            author: author,
+            title: title,
+            content: content,
+          }),
+        }
+      );
       console.log(data);
     });
   </script>
