@@ -114,3 +114,155 @@ img{
     padding:10px;
 
 }
+
+
+
+
+.bigcontainer{
+     
+     padding:20px;
+     Height:150vw;
+     width:961.6px;
+     border:2px solid black;
+}
+
+.outerbox{
+    /* background-color: rgb(180, 180, 41); */
+    width:60vw;
+    height:140px;
+    display:flex;
+    justify-content: space-between;
+    margin:5px;
+
+}
+
+.outerbox1{
+    /* background-color:red; */
+    width:30vw;
+    height: 140px;;
+    position: relative;
+    
+    left: 145px;
+
+
+}
+.outerbox2{
+    /* background-color: rgb(48, 114, 168); */
+    width:20vw;
+    height: 140px;;
+    
+}
+
+img{
+    margin: 0;
+    padding:0;
+    width:307px
+    /* background-color: lawngreen;
+    border:2px solid black; */
+
+}
+
+.innerbox1{
+    /* background-color: blue; */
+    height:22px;
+    display:flex;
+    justify-content: flex-start;
+
+}
+
+.innerbox1_1{
+    /* background-color: white; */
+    height:22px;
+    width:24px;
+    font-size:20px;
+    /* width: -moz-available;
+    padding: 2px 10px; */
+}
+    
+.innerbox1_2{
+    /* background-color:black; */
+    padding: 3px 5px;
+}
+
+
+.innerbox2{
+    /* background-color:chartreuse; */
+    height:50px;
+    color:black;
+    font-size:xx-large;
+    letter-spacing: 0ch;
+    font-weight: 100;
+    overflow:hidden;
+    line-height: 1.5;
+
+}
+.innerbox3{
+    /* background-color:white; */
+    height:40px;
+    color:rgb(117, 117, 117);
+    font-size:large;
+    letter-spacing: 0ch;
+    font-weight: 50;
+    overflow:hidden;
+    line-height: 1;
+
+}
+.innerbox4{
+    /* background-color:green; */
+    height:28px;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.innerbox4_1{
+    /* background-color: khaki; */
+    /* height:28px; */
+    margin: 5px 0 0 0;
+
+    /* display:flex;
+    justify-content:space-between; */
+}
+.innerbox4_1_child{
+    
+    padding:5px 15px;
+    
+    /* display:flex; */
+    
+}
+.fil{
+    background-color: grey;
+    border-radius: 19px;
+}
+
+.innerbox4_1_1{
+    /* background-color: orange; */
+    height:28px;
+    width:fit-content;
+    padding:0;
+    font-size: 15px;
+    
+    
+}
+
+
+
+
+.innerbox4_2{
+    /* background-color: orange; */
+    height:28px;
+    width:8%;
+    font-size: 25px;
+    color:blue;
+    text-align: left;
+}
+
+}
+
+.fas{
+
+    color:blue;
+}
+
+
+
